@@ -1,0 +1,39 @@
+{
+    "name": "schoolarize/schoolarizer",
+    "description" : "School Information Management API Package",
+    "keywords": [
+        "laravel"
+    ],
+    "homepage": "https://github.com/schoolarize/schoolarizer",
+    "type" : "project",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Stephen Okello Omoding",
+            "email" : "okellostephenomoding@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Schoolarize\\Schoolarizer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Schoolarize\\Schoolarizer\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Schoolarize\\Schoolarizer\\Providers\\SchoolarizerServiceProvider"
+            ]
+        }
+    }
+}
