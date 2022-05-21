@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Schoolarize\\Schoolarizer\\Providers\\SchoolarizerServiceProvider"
+                "Schoolarize\\Schoolarizer\\SchoolarizerServiceProvider"
             ]
         }
     }
